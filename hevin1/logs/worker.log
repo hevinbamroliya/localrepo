@@ -1,0 +1,6 @@
+2024-01-13 10:16:25,204 Worker rq:worker:15587c30845d458397e3beb9a187bc30: started, version 1.11.1
+2024-01-13 10:16:25,205 Subscribing to channel rq:pubsub:15587c30845d458397e3beb9a187bc30
+2024-01-13 10:16:25,209 *** Listening on home-hevin-localrepo-hevin1:short, home-hevin-localrepo-hevin1:default, home-hevin-localrepo-hevin1:long...
+2024-01-13 10:16:25,211 Cleaning registries for queue: home-hevin-localrepo-hevin1:short
+2024-01-13 10:16:25,213 Cleaning registries for queue: home-hevin-localrepo-hevin1:default
+2024-01-13 10:16:25,216 Cleaning registries for queue: home-hevin-localrepo-hevin1:long
