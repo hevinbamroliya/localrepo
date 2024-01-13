@@ -18,3 +18,19 @@
 2024-01-13 10:16:22,583 INFO /usr/local/bin/bench worker
 2024-01-13 10:16:22,764 INFO /usr/local/bin/bench serve --port 8000
 2024-01-13 10:16:22,841 INFO /usr/local/bin/bench schedule
+2024-01-13 10:28:14,398 INFO /usr/local/bin/bench new-site car.com
+2024-01-13 10:32:04,988 INFO /usr/local/bin/bench new-app vehical
+2024-01-13 10:32:05,000 LOG creating new app vehical
+2024-01-13 10:32:50,188 LOG Installing vehical
+2024-01-13 10:32:50,189 DEBUG cd /home/hevin/localrepo/hevin1 && /home/hevin/localrepo/hevin1/env/bin/python -m pip install --quiet --upgrade -e /home/hevin/localrepo/hevin1/apps/vehical 
+2024-01-13 10:32:53,771 DEBUG bench build --app vehical
+2024-01-13 10:32:53,915 INFO /usr/local/bin/bench build --app vehical
+2024-01-13 10:32:59,311 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-01-13 10:34:06,184 INFO /usr/local/bin/bench --site car.com install-app vehical
+2024-01-13 10:35:12,783 INFO /usr/local/bin/bench --site car.com set-config developer_mode 1
+2024-01-13 10:35:36,888 INFO /usr/local/bin/bench --site car.com add-to-hosts
+2024-01-13 10:37:56,778 INFO /usr/local/bin/bench start
+2024-01-13 10:37:57,372 INFO /usr/local/bin/bench serve --port 8000
+2024-01-13 10:37:57,475 INFO /usr/local/bin/bench worker
+2024-01-13 10:37:57,638 INFO /usr/local/bin/bench schedule
+2024-01-13 10:37:57,684 INFO /usr/local/bin/bench watch

@@ -7,5 +7,15 @@
         "required": [],
         "idx": 1,
         "version": "14.62.1"
+    },
+    "vehical": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "2fa907d1de9d0b4e6c8068c450262963a6d3864b",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
     }
 }
