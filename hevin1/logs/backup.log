@@ -1,0 +1,390 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240113_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-13 12:00:06.458415
+Config  : ./car.com/private/backups/20240113_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240113_120004-car_com-database.sql.gz         264.1KiB
+Backup for Site car.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240113_180005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-13 18:00:07.496919
+Config  : ./car.com/private/backups/20240113_180005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240113_180005-car_com-database.sql.gz         269.9KiB
+Backup for Site car.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240113_180007-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-13 18:00:08.652773
+Config  : ./hospitel.com/private/backups/20240113_180007-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240113_180007-hospitel_com-database.sql.gz         259.4KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240114_000007-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-14 00:00:13.251344
+Config  : ./car.com/private/backups/20240114_000007-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240114_000007-car_com-database.sql.gz         271.1KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240113_180007-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240113_180007-hospitel_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240114_000013-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-14 00:00:16.264461
+Config  : ./hospitel.com/private/backups/20240114_000013-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240114_000013-hospitel_com-database.sql.gz         262.7KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240115_180005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-15 18:00:07.747823
+Config  : ./car.com/private/backups/20240115_180005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240115_180005-car_com-database.sql.gz         273.5KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240113_180007-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240114_000013-hospitel_com-site_config_backup.json is older than 24 hours
+File ./hospitel.com/private/backups/20240114_000013-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240113_180007-hospitel_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240115_180007-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-15 18:00:09.041670
+Config  : ./hospitel.com/private/backups/20240115_180007-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240115_180007-hospitel_com-database.sql.gz         268.6KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240116_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-16 12:00:07.695255
+Config  : ./car.com/private/backups/20240116_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240116_120004-car_com-database.sql.gz         277.3KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240115_180007-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240115_180007-hospitel_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240116_120007-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-16 12:00:09.736974
+Config  : ./hospitel.com/private/backups/20240116_120007-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240116_120007-hospitel_com-database.sql.gz         282.6KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240117_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-17 12:00:06.299761
+Config  : ./car.com/private/backups/20240117_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240117_120004-car_com-database.sql.gz         281.8KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240115_180007-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240115_180007-hospitel_com-site_config_backup.json is older than 24 hours
+File ./hospitel.com/private/backups/20240116_120007-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240116_120007-hospitel_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240117_120006-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-17 12:00:07.510183
+Config  : ./hospitel.com/private/backups/20240117_120006-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240117_120006-hospitel_com-database.sql.gz         302.5KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240118_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-18 12:00:07.219689
+Config  : ./car.com/private/backups/20240118_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240118_120004-car_com-database.sql.gz         284.9KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240117_120006-hospitel_com-site_config_backup.json is recent
+File ./hospitel.com/private/backups/20240117_120006-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240116_120007-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240116_120007-hospitel_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240118_120007-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-18 12:00:08.335925
+Config  : ./hospitel.com/private/backups/20240118_120007-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240118_120007-hospitel_com-database.sql.gz         308.6KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240118_180004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-18 18:00:06.606490
+Config  : ./car.com/private/backups/20240118_180004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240118_180004-car_com-database.sql.gz         287.6KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240117_120006-hospitel_com-site_config_backup.json is older than 24 hours
+File ./hospitel.com/private/backups/20240117_120006-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240118_120007-hospitel_com-site_config_backup.json is recent
+File ./hospitel.com/private/backups/20240118_120007-hospitel_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240118_180006-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-18 18:00:08.412275
+Config  : ./hospitel.com/private/backups/20240118_180006-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240118_180006-hospitel_com-database.sql.gz         311.1KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240119_180003-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-19 18:00:05.124313
+Config  : ./car.com/private/backups/20240119_180003-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240119_180003-car_com-database.sql.gz         293.7KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240118_180006-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240118_120007-hospitel_com-site_config_backup.json is older than 24 hours
+File ./hospitel.com/private/backups/20240118_180006-hospitel_com-site_config_backup.json is recent
+File ./hospitel.com/private/backups/20240118_120007-hospitel_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240119_180005-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-19 18:00:06.579186
+Config  : ./hospitel.com/private/backups/20240119_180005-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240119_180005-hospitel_com-database.sql.gz         319.6KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240120_120007-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-20 12:00:13.338186
+Config  : ./car.com/private/backups/20240120_120007-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240120_120007-car_com-database.sql.gz         296.3KiB
+Backup for Site car.com has been successfully completed
+File ./hospitel.com/private/backups/20240119_180005-hospitel_com-database.sql.gz is recent
+File ./hospitel.com/private/backups/20240118_180006-hospitel_com-database.sql.gz is older than 24 hours
+File ./hospitel.com/private/backups/20240119_180005-hospitel_com-site_config_backup.json is recent
+File ./hospitel.com/private/backups/20240118_180006-hospitel_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f3fd56e956a33e37 -p********** _f3fd56e956a33e37 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospitel.com/private/backups/20240120_120013-hospitel_com-database.sql.gz
+
+Backup Summary for hospitel.com at 2024-01-20 12:00:15.320479
+Config  : ./hospitel.com/private/backups/20240120_120013-hospitel_com-site_config_backup.json 116.0B
+Database: ./hospitel.com/private/backups/20240120_120013-hospitel_com-database.sql.gz         269.0KiB
+Backup for Site hospitel.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240120_180005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-20 18:00:08.159431
+Config  : ./car.com/private/backups/20240120_180005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240120_180005-car_com-database.sql.gz         296.3KiB
+Backup for Site car.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240120_180008-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-20 18:00:09.116529
+Config  : ./hospital.com/private/backups/20240120_180008-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240120_180008-hospital_com-database.sql.gz         294.2KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240121_000005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-21 00:00:07.003211
+Config  : ./car.com/private/backups/20240121_000005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240121_000005-car_com-database.sql.gz         296.3KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240120_180008-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240120_180008-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240121_000007-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-21 00:00:08.181538
+Config  : ./hospital.com/private/backups/20240121_000007-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240121_000007-hospital_com-database.sql.gz         299.4KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240122_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-22 12:00:06.012522
+Config  : ./car.com/private/backups/20240122_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240122_120004-car_com-database.sql.gz         297.1KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240121_000007-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240121_000007-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240120_180008-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240120_180008-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240122_120006-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-22 12:00:06.993797
+Config  : ./hospital.com/private/backups/20240122_120006-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240122_120006-hospital_com-database.sql.gz         309.1KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240123_120006-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-23 12:00:11.894923
+Config  : ./car.com/private/backups/20240123_120006-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240123_120006-car_com-database.sql.gz         297.7KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240122_120006-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240122_120006-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240123_120011-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-23 12:00:13.754180
+Config  : ./hospital.com/private/backups/20240123_120011-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240123_120011-hospital_com-database.sql.gz         340.8KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240123_180008-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-23 18:00:17.895822
+Config  : ./car.com/private/backups/20240123_180008-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240123_180008-car_com-database.sql.gz         298.3KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240123_120011-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_120011-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240123_180018-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-23 18:00:22.347621
+Config  : ./hospital.com/private/backups/20240123_180018-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240123_180018-hospital_com-database.sql.gz         361.3KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240124_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-24 12:00:07.509621
+Config  : ./car.com/private/backups/20240124_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240124_120004-car_com-database.sql.gz         298.3KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240123_180018-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240123_180018-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_120011-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_120011-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240124_120007-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-24 12:00:08.580343
+Config  : ./hospital.com/private/backups/20240124_120007-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240124_120007-hospital_com-database.sql.gz         376.7KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240124_180005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-24 18:00:07.186010
+Config  : ./car.com/private/backups/20240124_180005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240124_180005-car_com-database.sql.gz         298.9KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240124_120007-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240123_180018-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240124_120007-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_180018-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_120011-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240123_120011-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240124_180007-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-24 18:00:09.432996
+Config  : ./hospital.com/private/backups/20240124_180007-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240124_180007-hospital_com-database.sql.gz         386.0KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240125_120004-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-25 12:00:06.574659
+Config  : ./car.com/private/backups/20240125_120004-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240125_120004-car_com-database.sql.gz         298.9KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240124_120007-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240123_180018-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240124_120007-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240123_180018-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240124_180007-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240124_180007-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240125_120006-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-25 12:00:07.810278
+Config  : ./hospital.com/private/backups/20240125_120006-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240125_120006-hospital_com-database.sql.gz         406.9KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240125_180005-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-25 18:00:11.218591
+Config  : ./car.com/private/backups/20240125_180005-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240125_180005-car_com-database.sql.gz         299.5KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240125_120006-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240124_120007-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240124_120007-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240124_180007-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240125_120006-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240124_180007-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240125_180011-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-25 18:00:14.273581
+Config  : ./hospital.com/private/backups/20240125_180011-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240125_180011-hospital_com-database.sql.gz         411.5KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240129_120003-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-29 12:00:04.945804
+Config  : ./car.com/private/backups/20240129_120003-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240129_120003-car_com-database.sql.gz         300.2KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240125_120006-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240125_180011-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240125_120006-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240125_180011-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240129_120004-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-29 12:00:05.813890
+Config  : ./hospital.com/private/backups/20240129_120004-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240129_120004-hospital_com-database.sql.gz         412.5KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240129_180003-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-29 18:00:04.597489
+Config  : ./car.com/private/backups/20240129_180003-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240129_180003-car_com-database.sql.gz         300.2KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240129_120004-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240129_120004-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240129_180004-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-29 18:00:05.510369
+Config  : ./hospital.com/private/backups/20240129_180004-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240129_180004-hospital_com-database.sql.gz         416.6KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240130_120006-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-30 12:00:08.590620
+Config  : ./car.com/private/backups/20240130_120006-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240130_120006-car_com-database.sql.gz         300.2KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240129_180004-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240129_180004-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240129_120004-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240129_120004-hospital_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240130_120008-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-30 12:00:09.478226
+Config  : ./hospital.com/private/backups/20240130_120008-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240130_120008-hospital_com-database.sql.gz         418.2KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240130_180006-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-30 18:00:07.985550
+Config  : ./car.com/private/backups/20240130_180006-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240130_180006-car_com-database.sql.gz         300.8KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240129_180004-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240130_120008-hospital_com-site_config_backup.json is recent
+File ./hospital.com/private/backups/20240130_120008-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240129_180004-hospital_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240130_180007-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-30 18:00:09.680693
+Config  : ./hospital.com/private/backups/20240130_180007-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240130_180007-hospital_com-database.sql.gz         418.5KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240131_180006-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-01-31 18:00:07.933564
+Config  : ./car.com/private/backups/20240131_180006-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240131_180006-car_com-database.sql.gz         300.8KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240130_120008-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240130_120008-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240130_180007-hospital_com-database.sql.gz is recent
+File ./hospital.com/private/backups/20240130_180007-hospital_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240131_180008-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-01-31 18:00:10.072060
+Config  : ./hospital.com/private/backups/20240131_180008-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240131_180008-hospital_com-database.sql.gz         418.8KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240205_180006-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-02-05 18:00:08.355025
+Config  : ./car.com/private/backups/20240205_180006-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240205_180006-car_com-database.sql.gz         301.6KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240131_180008-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240130_180007-hospital_com-database.sql.gz is older than 24 hours
+File ./hospital.com/private/backups/20240130_180007-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240131_180008-hospital_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240205_180008-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-02-05 18:00:10.490441
+Config  : ./hospital.com/private/backups/20240205_180008-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240205_180008-hospital_com-database.sql.gz         420.6KiB
+Backup for Site hospital.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f5dca327e5ab0f7b -p********** _f5dca327e5ab0f7b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./car.com/private/backups/20240207_120009-car_com-database.sql.gz
+
+Backup Summary for car.com at 2024-02-07 12:00:14.003826
+Config  : ./car.com/private/backups/20240207_120009-car_com-site_config_backup.json 116.0B
+Database: ./car.com/private/backups/20240207_120009-car_com-database.sql.gz         301.6KiB
+Backup for Site car.com has been successfully completed
+File ./hospital.com/private/backups/20240205_180008-hospital_com-site_config_backup.json is older than 24 hours
+File ./hospital.com/private/backups/20240205_180008-hospital_com-database.sql.gz is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _d385ee718eb56e1c -p********** _d385ee718eb56e1c -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hospital.com/private/backups/20240207_120014-hospital_com-database.sql.gz
+
+Backup Summary for hospital.com at 2024-02-07 12:00:19.482873
+Config  : ./hospital.com/private/backups/20240207_120014-hospital_com-site_config_backup.json 116.0B
+Database: ./hospital.com/private/backups/20240207_120014-hospital_com-database.sql.gz         420.6KiB
+Backup for Site hospital.com has been successfully completed

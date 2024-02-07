@@ -34,3 +34,256 @@
 2024-01-13 10:37:57,475 INFO /usr/local/bin/bench worker
 2024-01-13 10:37:57,638 INFO /usr/local/bin/bench schedule
 2024-01-13 10:37:57,684 INFO /usr/local/bin/bench watch
+2024-01-13 12:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-13 15:11:54,279 INFO /usr/local/bin/bench start
+2024-01-13 15:11:55,050 INFO /usr/local/bin/bench worker
+2024-01-13 15:11:55,278 INFO /usr/local/bin/bench serve --port 8000
+2024-01-13 15:11:55,714 INFO /usr/local/bin/bench schedule
+2024-01-13 15:11:55,729 INFO /usr/local/bin/bench watch
+2024-01-13 17:19:22,004 INFO /usr/local/bin/bench new-site hospitel.com
+2024-01-13 17:22:26,417 INFO /usr/local/bin/bench new-app hospitel
+2024-01-13 17:22:26,434 LOG creating new app hospitel
+2024-01-13 17:23:10,762 LOG Installing hospitel
+2024-01-13 17:23:10,763 DEBUG cd /home/hevin/localrepo/hevin1 && /home/hevin/localrepo/hevin1/env/bin/python -m pip install --quiet --upgrade -e /home/hevin/localrepo/hevin1/apps/hospitel 
+2024-01-13 17:23:14,431 DEBUG bench build --app hospitel
+2024-01-13 17:23:14,541 INFO /usr/local/bin/bench build --app hospitel
+2024-01-13 17:23:18,560 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-01-13 17:24:22,767 INFO /usr/local/bin/bench --site hospitel.com install-app hospitel
+2024-01-13 17:25:38,923 INFO /usr/local/bin/bench --site hospitel.com set-config developer_mode 1
+2024-01-13 17:26:19,546 INFO /usr/local/bin/bench --site hospitel.com add-to-hosts
+2024-01-13 17:26:32,343 INFO /usr/local/bin/bench satrt
+2024-01-13 17:26:48,827 INFO /usr/local/bin/bench start
+2024-01-13 17:27:40,581 INFO /usr/local/bin/bench start
+2024-01-13 17:27:41,183 INFO /usr/local/bin/bench serve --port 8000
+2024-01-13 17:27:41,327 INFO /usr/local/bin/bench watch
+2024-01-13 17:27:41,549 INFO /usr/local/bin/bench worker
+2024-01-13 17:27:41,893 INFO /usr/local/bin/bench schedule
+2024-01-13 18:00:02,226 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-14 00:00:03,237 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-15 17:16:02,775 INFO /usr/local/bin/bench start
+2024-01-15 17:16:31,482 INFO /usr/local/bin/bench start
+2024-01-15 17:16:31,955 INFO /usr/local/bin/bench watch
+2024-01-15 17:16:32,026 INFO /usr/local/bin/bench worker
+2024-01-15 17:16:32,110 INFO /usr/local/bin/bench serve --port 8000
+2024-01-15 17:16:32,182 INFO /usr/local/bin/bench schedule
+2024-01-15 17:52:56,805 INFO /usr/local/bin/bench start
+2024-01-15 17:52:57,636 INFO /usr/local/bin/bench serve --port 8000
+2024-01-15 17:52:57,679 INFO /usr/local/bin/bench schedule
+2024-01-15 17:52:57,811 INFO /usr/local/bin/bench watch
+2024-01-15 17:52:57,859 INFO /usr/local/bin/bench worker
+2024-01-15 18:00:01,761 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-16 09:41:58,065 INFO /usr/local/bin/bench start
+2024-01-16 09:41:58,658 INFO /usr/local/bin/bench watch
+2024-01-16 09:41:58,805 INFO /usr/local/bin/bench serve --port 8000
+2024-01-16 09:41:58,869 INFO /usr/local/bin/bench worker
+2024-01-16 09:41:58,920 INFO /usr/local/bin/bench schedule
+2024-01-16 11:07:01,602 INFO /usr/local/bin/bench start
+2024-01-16 11:07:02,568 INFO /usr/local/bin/bench watch
+2024-01-16 11:07:03,381 INFO /usr/local/bin/bench worker
+2024-01-16 11:07:03,402 INFO /usr/local/bin/bench serve --port 8000
+2024-01-16 11:07:03,416 INFO /usr/local/bin/bench schedule
+2024-01-16 12:00:01,444 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-16 13:59:47,851 INFO /usr/local/bin/bench start
+2024-01-16 13:59:48,929 INFO /usr/local/bin/bench watch
+2024-01-16 13:59:48,937 INFO /usr/local/bin/bench serve --port 8000
+2024-01-16 13:59:49,269 INFO /usr/local/bin/bench worker
+2024-01-16 13:59:49,307 INFO /usr/local/bin/bench schedule
+2024-01-16 14:43:44,161 INFO /usr/local/bin/bench start
+2024-01-16 14:43:44,929 INFO /usr/local/bin/bench serve --port 8000
+2024-01-16 14:43:45,019 INFO /usr/local/bin/bench schedule
+2024-01-16 14:43:45,148 INFO /usr/local/bin/bench worker
+2024-01-16 14:43:45,673 INFO /usr/local/bin/bench watch
+2024-01-17 09:41:03,546 INFO /usr/local/bin/bench start
+2024-01-17 09:41:04,371 INFO /usr/local/bin/bench schedule
+2024-01-17 09:41:04,497 INFO /usr/local/bin/bench worker
+2024-01-17 09:41:04,516 INFO /usr/local/bin/bench watch
+2024-01-17 09:41:04,536 INFO /usr/local/bin/bench serve --port 8000
+2024-01-17 12:00:02,030 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-17 14:20:09,265 INFO /usr/local/bin/bench start
+2024-01-17 14:20:09,852 INFO /usr/local/bin/bench worker
+2024-01-17 14:20:09,911 INFO /usr/local/bin/bench watch
+2024-01-17 14:20:09,965 INFO /usr/local/bin/bench schedule
+2024-01-17 14:20:09,972 INFO /usr/local/bin/bench serve --port 8000
+2024-01-18 12:00:02,143 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-18 17:32:28,406 INFO /usr/local/bin/bench start
+2024-01-18 17:32:29,093 INFO /usr/local/bin/bench watch
+2024-01-18 17:32:29,247 INFO /usr/local/bin/bench schedule
+2024-01-18 17:32:29,491 INFO /usr/local/bin/bench worker
+2024-01-18 17:32:29,666 INFO /usr/local/bin/bench serve --port 8000
+2024-01-18 18:00:01,465 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-19 09:47:52,484 INFO /usr/local/bin/bench start
+2024-01-19 09:47:53,174 INFO /usr/local/bin/bench worker
+2024-01-19 09:47:53,617 INFO /usr/local/bin/bench watch
+2024-01-19 09:47:53,619 INFO /usr/local/bin/bench schedule
+2024-01-19 09:47:53,685 INFO /usr/local/bin/bench serve --port 8000
+2024-01-19 11:23:45,515 INFO /usr/local/bin/bench start
+2024-01-19 11:23:46,317 INFO /usr/local/bin/bench serve --port 8000
+2024-01-19 11:23:46,402 INFO /usr/local/bin/bench worker
+2024-01-19 11:23:46,428 INFO /usr/local/bin/bench schedule
+2024-01-19 11:23:46,478 INFO /usr/local/bin/bench watch
+2024-01-19 16:48:54,088 INFO /usr/local/bin/bench start
+2024-01-19 16:48:54,838 INFO /usr/local/bin/bench serve --port 8000
+2024-01-19 16:48:54,851 INFO /usr/local/bin/bench watch
+2024-01-19 16:48:54,860 INFO /usr/local/bin/bench worker
+2024-01-19 16:48:55,040 INFO /usr/local/bin/bench schedule
+2024-01-19 18:00:01,957 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-20 09:27:10,425 INFO /usr/local/bin/bench start
+2024-01-20 09:27:11,479 INFO /usr/local/bin/bench watch
+2024-01-20 09:27:11,500 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 09:27:11,528 INFO /usr/local/bin/bench schedule
+2024-01-20 09:27:11,560 INFO /usr/local/bin/bench worker
+2024-01-20 10:44:17,273 INFO /usr/local/bin/bench get-app --branch version-14 https://github.com/frappe/erpnext.git
+2024-01-20 10:44:17,289 LOG Getting erpnext
+2024-01-20 10:44:17,290 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2024-01-20 10:44:23,928 LOG Installing erpnext
+2024-01-20 10:44:24,113 DEBUG cd /home/hevin/localrepo/hevin1 && /home/hevin/localrepo/hevin1/env/bin/python -m pip install --quiet --upgrade -e /home/hevin/localrepo/hevin1/apps/erpnext 
+2024-01-20 10:45:19,197 DEBUG cd /home/hevin/localrepo/hevin1/apps/erpnext && yarn install
+2024-01-20 10:45:25,346 DEBUG bench build --app erpnext
+2024-01-20 10:45:25,732 INFO /usr/local/bin/bench build --app erpnext
+2024-01-20 10:45:38,019 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-01-20 10:48:03,352 INFO /usr/local/bin/bench --site hospitel.com install-app erpnext
+2024-01-20 10:49:20,390 INFO /usr/local/bin/bench --site hospitel.com reinstall
+2024-01-20 10:49:30,883 INFO /usr/local/bin/bench --site hospitel.com reinstall
+2024-01-20 11:10:48,113 INFO /usr/local/bin/bench --site hospitel.com reinstall
+2024-01-20 11:12:24,160 INFO /usr/local/bin/bench start
+2024-01-20 11:12:24,689 INFO /usr/local/bin/bench watch
+2024-01-20 11:12:24,731 INFO /usr/local/bin/bench worker
+2024-01-20 11:12:24,771 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 11:12:24,782 INFO /usr/local/bin/bench schedule
+2024-01-20 12:00:02,978 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-20 12:15:39,517 INFO /usr/local/bin/bench --site hopsital.com install-app erpnext
+2024-01-20 12:15:49,400 INFO /usr/local/bin/bench --site hopsitel.com install-app erpnext
+2024-01-20 12:16:01,014 INFO /usr/local/bin/bench --site hospitel.com install-app erpnext
+2024-01-20 12:17:34,501 INFO /usr/local/bin/bench new-site hospital.com
+2024-01-20 12:20:02,437 INFO /usr/local/bin/bench --site hospital.com install-app hospitel
+2024-01-20 12:21:17,875 INFO /usr/local/bin/bench --site hospital.com add-to-hosts
+2024-01-20 12:22:07,408 INFO /usr/local/bin/bench --site hospital.com developer_mode 1
+2024-01-20 12:22:28,833 INFO /usr/local/bin/bench --site hospital.com set-config developer_mode 1
+2024-01-20 12:22:41,387 INFO /usr/local/bin/bench start
+2024-01-20 12:23:07,691 INFO /usr/local/bin/bench start
+2024-01-20 12:23:08,234 INFO /usr/local/bin/bench watch
+2024-01-20 12:23:08,393 INFO /usr/local/bin/bench schedule
+2024-01-20 12:23:08,443 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 12:23:08,588 INFO /usr/local/bin/bench worker
+2024-01-20 12:51:11,780 INFO /usr/local/bin/bench drop-site hospitel.com
+2024-01-20 12:52:24,465 INFO /usr/local/bin/bench start
+2024-01-20 12:52:25,200 INFO /usr/local/bin/bench watch
+2024-01-20 12:52:25,234 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 12:52:25,273 INFO /usr/local/bin/bench worker
+2024-01-20 12:52:25,329 INFO /usr/local/bin/bench schedule
+2024-01-20 12:54:47,006 INFO /usr/local/bin/bench start
+2024-01-20 12:55:21,277 INFO /usr/local/bin/bench start
+2024-01-20 12:55:21,664 INFO /usr/local/bin/bench worker
+2024-01-20 12:55:21,702 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 12:55:21,772 INFO /usr/local/bin/bench schedule
+2024-01-20 12:55:21,816 INFO /usr/local/bin/bench watch
+2024-01-20 12:58:54,278 INFO /usr/local/bin/bench restore-site hospitel.com
+2024-01-20 12:59:11,693 INFO /usr/local/bin/bench Restore-site hospitel.com
+2024-01-20 12:59:24,256 INFO /usr/local/bin/bench --help
+2024-01-20 13:00:45,935 INFO /usr/local/bin/bench restore hospitel.com
+2024-01-20 13:00:57,369 INFO /usr/local/bin/bench restore-site hospitel.com
+2024-01-20 13:07:39,370 INFO /usr/local/bin/bench --site hospital.com set-config developer_mode 1
+2024-01-20 13:08:06,104 INFO /usr/local/bin/bench --site hospital.com add-to-hosts
+2024-01-20 13:08:21,041 INFO /usr/local/bin/bench satrt
+2024-01-20 13:08:29,047 INFO /usr/local/bin/bench start
+2024-01-20 13:09:06,058 INFO /usr/local/bin/bench start
+2024-01-20 13:09:06,414 INFO /usr/local/bin/bench worker
+2024-01-20 13:09:06,551 INFO /usr/local/bin/bench watch
+2024-01-20 13:09:06,584 INFO /usr/local/bin/bench schedule
+2024-01-20 13:09:06,679 INFO /usr/local/bin/bench serve --port 8000
+2024-01-20 18:00:02,281 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-21 00:00:02,248 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-21 17:20:09,098 INFO /usr/local/bin/bench start
+2024-01-21 17:20:10,035 INFO /usr/local/bin/bench serve --port 8000
+2024-01-21 17:20:10,060 INFO /usr/local/bin/bench watch
+2024-01-21 17:20:10,186 INFO /usr/local/bin/bench schedule
+2024-01-21 17:20:10,292 INFO /usr/local/bin/bench worker
+2024-01-21 20:40:31,895 INFO /usr/local/bin/bench start
+2024-01-21 20:40:33,035 INFO /usr/local/bin/bench watch
+2024-01-21 20:40:33,142 INFO /usr/local/bin/bench schedule
+2024-01-21 20:40:33,186 INFO /usr/local/bin/bench serve --port 8000
+2024-01-21 20:40:33,233 INFO /usr/local/bin/bench worker
+2024-01-22 09:45:44,757 INFO /usr/local/bin/bench start
+2024-01-22 09:45:45,611 INFO /usr/local/bin/bench serve --port 8000
+2024-01-22 09:45:45,698 INFO /usr/local/bin/bench schedule
+2024-01-22 09:45:45,902 INFO /usr/local/bin/bench watch
+2024-01-22 09:45:45,941 INFO /usr/local/bin/bench worker
+2024-01-22 11:32:15,982 INFO /usr/local/bin/bench start
+2024-01-22 11:32:16,602 INFO /usr/local/bin/bench serve --port 8000
+2024-01-22 11:32:16,610 INFO /usr/local/bin/bench watch
+2024-01-22 11:32:16,631 INFO /usr/local/bin/bench worker
+2024-01-22 11:32:16,664 INFO /usr/local/bin/bench schedule
+2024-01-22 12:00:01,798 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-22 14:57:16,239 INFO /usr/local/bin/bench start
+2024-01-22 14:57:17,083 INFO /usr/local/bin/bench serve --port 8000
+2024-01-22 14:57:17,103 INFO /usr/local/bin/bench worker
+2024-01-22 14:57:17,136 INFO /usr/local/bin/bench watch
+2024-01-22 14:57:17,152 INFO /usr/local/bin/bench schedule
+2024-01-23 12:00:01,661 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-23 16:00:05,410 INFO /usr/local/bin/bench --site hospitel.com
+2024-01-23 16:00:15,013 INFO /usr/local/bin/bench --site hospitel.com list-apps
+2024-01-23 16:00:23,018 INFO /usr/local/bin/bench --site hopsitel.com list-apps
+2024-01-23 16:00:29,451 INFO /usr/local/bin/bench --site hopsital.com list-apps
+2024-01-23 16:00:45,972 INFO /usr/local/bin/bench --site hospitel.com list-apps
+2024-01-23 16:00:54,108 INFO /usr/local/bin/bench --site hospital.com list-apps
+2024-01-23 16:02:36,890 INFO /usr/local/bin/bench --site hospital.com
+2024-01-23 16:02:46,696 INFO /usr/local/bin/bench --site hospital.com migrate
+2024-01-23 18:00:02,045 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-24 11:00:28,741 INFO /usr/local/bin/bench start
+2024-01-24 11:00:29,564 INFO /usr/local/bin/bench watch
+2024-01-24 11:00:29,574 INFO /usr/local/bin/bench serve --port 8000
+2024-01-24 11:00:29,602 INFO /usr/local/bin/bench worker
+2024-01-24 11:00:29,792 INFO /usr/local/bin/bench schedule
+2024-01-24 12:00:01,640 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-24 14:51:10,797 INFO /usr/local/bin/bench start
+2024-01-24 14:51:11,640 INFO /usr/local/bin/bench schedule
+2024-01-24 14:51:11,812 INFO /usr/local/bin/bench worker
+2024-01-24 14:51:11,955 INFO /usr/local/bin/bench serve --port 8000
+2024-01-24 14:51:12,182 INFO /usr/local/bin/bench watch
+2024-01-24 15:46:56,446 INFO /usr/local/bin/bench start
+2024-01-24 15:47:21,423 INFO /usr/local/bin/bench start
+2024-01-24 15:47:21,815 INFO /usr/local/bin/bench serve --port 8000
+2024-01-24 15:47:21,886 INFO /usr/local/bin/bench worker
+2024-01-24 15:47:21,959 INFO /usr/local/bin/bench watch
+2024-01-24 15:47:22,141 INFO /usr/local/bin/bench schedule
+2024-01-24 18:00:01,843 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-25 07:53:31,515 INFO /usr/local/bin/bench start
+2024-01-25 07:53:32,352 INFO /usr/local/bin/bench serve --port 8000
+2024-01-25 07:53:32,497 INFO /usr/local/bin/bench schedule
+2024-01-25 07:53:32,634 INFO /usr/local/bin/bench watch
+2024-01-25 07:53:33,228 INFO /usr/local/bin/bench worker
+2024-01-25 09:32:55,608 INFO /usr/local/bin/bench start
+2024-01-25 09:32:56,884 INFO /usr/local/bin/bench schedule
+2024-01-25 09:32:56,926 INFO /usr/local/bin/bench watch
+2024-01-25 09:32:57,027 INFO /usr/local/bin/bench serve --port 8000
+2024-01-25 09:32:57,429 INFO /usr/local/bin/bench worker
+2024-01-25 11:56:34,083 INFO /usr/local/bin/bench start
+2024-01-25 11:56:34,840 INFO /usr/local/bin/bench schedule
+2024-01-25 11:56:34,932 INFO /usr/local/bin/bench serve --port 8000
+2024-01-25 11:56:34,945 INFO /usr/local/bin/bench watch
+2024-01-25 11:56:35,008 INFO /usr/local/bin/bench worker
+2024-01-25 12:00:01,624 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-25 18:00:01,684 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-29 11:45:18,651 INFO /usr/local/bin/bench start
+2024-01-29 11:45:19,186 INFO /usr/local/bin/bench worker
+2024-01-29 11:45:19,358 INFO /usr/local/bin/bench schedule
+2024-01-29 11:45:19,429 INFO /usr/local/bin/bench serve --port 8000
+2024-01-29 11:45:19,451 INFO /usr/local/bin/bench watch
+2024-01-29 12:00:02,325 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-29 13:23:55,155 INFO /usr/local/bin/bench version --format table
+2024-01-29 18:00:01,598 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-30 12:00:02,064 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-30 17:43:43,443 INFO /usr/local/bin/bench start
+2024-01-30 17:43:44,375 INFO /usr/local/bin/bench worker
+2024-01-30 17:43:44,516 INFO /usr/local/bin/bench serve --port 8000
+2024-01-30 17:43:44,557 INFO /usr/local/bin/bench schedule
+2024-01-30 17:43:44,860 INFO /usr/local/bin/bench watch
+2024-01-30 18:00:02,048 INFO /usr/local/bin/bench --verbose --site all backup
+2024-01-31 18:00:01,434 INFO /usr/local/bin/bench --verbose --site all backup
+2024-02-05 10:07:33,343 INFO /usr/local/bin/bench start
+2024-02-05 10:07:33,866 INFO /usr/local/bin/bench schedule
+2024-02-05 10:07:33,906 INFO /usr/local/bin/bench worker
+2024-02-05 10:07:33,912 INFO /usr/local/bin/bench watch
+2024-02-05 10:07:33,985 INFO /usr/local/bin/bench serve --port 8000
+2024-02-05 18:00:01,489 INFO /usr/local/bin/bench --verbose --site all backup
+2024-02-07 12:00:03,267 INFO /usr/local/bin/bench --verbose --site all backup

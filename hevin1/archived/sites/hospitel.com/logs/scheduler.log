@@ -1,0 +1,43 @@
+2024-01-20 12:51:21,335 ERROR scheduler Exception in Enqueue Events for Site hospitel.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/database/database.py", line 220, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table '_f3fd56e956a33e37.tabSingles' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 75, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "apps/frappe/frappe/utils/scheduler.py", line 114, in is_scheduler_inactive
+    if is_scheduler_disabled(verbose=verbose):
+  File "apps/frappe/frappe/utils/scheduler.py", line 127, in is_scheduler_disabled
+    frappe.db.get_single_value("System Settings", "enable_scheduler")
+  File "apps/frappe/frappe/database/database.py", line 786, in get_single_value
+    ).run()
+  File "apps/frappe/frappe/query_builder/utils.py", line 87, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 248, in sql
+    traceback.print_stack()
+  File "/usr/lib/python3.10/traceback.py", line 206, in print_stack
+    print_list(extract_stack(f, limit=limit), file=file)
+  File "/usr/lib/python3.10/traceback.py", line 25, in print_list
+    print(item, file=file, end="")
+BrokenPipeError: [Errno 32] Broken pipe
+

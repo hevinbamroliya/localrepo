@@ -17,5 +17,25 @@
         "required": [],
         "idx": 2,
         "version": "0.0.1"
+    },
+    "hospitel": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "d9cafc871802e742df839e1725822d1a0f5f1c12",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "9aa1e7444e018df71b7ae3a3d9af850819ee42bb",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "14.61.0"
     }
 }

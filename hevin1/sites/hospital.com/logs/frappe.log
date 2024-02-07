@@ -1,0 +1,189 @@
+2024-01-20 14:53:15,540 ERROR frappe New Exception collected with id: 2024-01-20 14:53:15.487437-127.0.0.1-aff
+Site: hospital.com
+Form Dict: {'txt': '', 'doctype': 'doctor', 'ignore_user_permissions': '0', 'reference_doctype': 'Hospital', 'cmd': 'frappe.desk.search.search_link'}
+2024-01-20 17:41:06,767 ERROR frappe New Exception collected with id: 2024-01-20 17:41:06.759907-127.0.0.1-56f
+Site: hospital.com
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Receptionist","name":"new-receptionist-dnqmqbblkq","__islocal":1,"__unsaved":1,"owner":"receptionist@gmail.com","type_of_test":"Blood test","patient_status":"ongoing","receptionist_name":"bhoomi","patient_name":"ravi","doctor_name":"mayur jani","check_in_time":"17:40:54","collect_fees":250}', 'method': 'Doctor', 'cmd': 'run_doc_method'}
+2024-01-22 10:52:13,847 ERROR frappe New Exception collected with id: 2024-01-22 10:52:13.666903-127.0.0.1-87c
+Site: hospital.com
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Receptionist","name":"new-receptionist-pnnnzelmjw","__islocal":1,"__unsaved":1,"owner":"Administrator","patient_status":"ongoing"}', 'method': 'Doctor', 'cmd': 'run_doc_method'}
+2024-01-22 10:52:15,307 ERROR frappe New Exception collected with id: 2024-01-22 10:52:15.306055-127.0.0.1-927
+Site: hospital.com
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Receptionist","name":"new-receptionist-pnnnzelmjw","__islocal":1,"__unsaved":1,"owner":"Administrator","patient_status":"ongoing"}', 'method': 'Doctor', 'cmd': 'run_doc_method'}
+2024-01-22 11:14:13,055 ERROR frappe New Exception collected with id: 2024-01-22 11:14:12.964196-127.0.0.1-ebd
+Site: hospital.com
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Receptionist","name":"new-receptionist-kkevazcsya","__islocal":1,"__unsaved":1,"owner":"Administrator","patient_status":"ongoing"}', 'method': 'Doctor', 'cmd': 'run_doc_method'}
+2024-01-22 11:14:51,493 ERROR frappe New Exception collected with id: 2024-01-22 11:14:51.471525-127.0.0.1-68d
+Site: hospital.com
+Form Dict: {'doctype': 'Receptionist', 'name': 'bhoomi', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-01-22 11:15:20,610 ERROR frappe New Exception collected with id: 2024-01-22 11:15:20.573280-127.0.0.1-26d
+Site: hospital.com
+Form Dict: {'doctype': 'Receptionist', 'name': 'palak', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-01-22 11:16:10,194 ERROR frappe New Exception collected with id: 2024-01-22 11:16:10.166864-127.0.0.1-d77
+Site: hospital.com
+Form Dict: {'doctype': 'Receptionist', 'name': 'bhoomi', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-01-22 11:16:16,364 ERROR frappe New Exception collected with id: 2024-01-22 11:16:16.328535-127.0.0.1-94b
+Site: hospital.com
+Form Dict: {'doctype': 'Receptionist', 'with_parent': '1', 'cached_timestamp': '2024-01-20 17:54:51.009634', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-01-22 11:16:58,086 ERROR frappe New Exception collected with id: 2024-01-22 11:16:58.043026-127.0.0.1-0c6
+Site: hospital.com
+Form Dict: {'doctype': 'Receptionist', 'with_parent': '1', 'cached_timestamp': '2024-01-20 17:54:51.009634', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-01-22 11:24:34,480 ERROR frappe New Exception collected with id: 2024-01-22 11:24:34.316416-127.0.0.1-427
+Site: hospital.com
+Form Dict: {'docs': '{"docstatus":0,"doctype":"Receptionist","name":"new-receptionist-ttnfpfizeg","__islocal":1,"__unsaved":1,"owner":"Administrator","patient_status":"ongoing","receptionist_name":"kevin","patient_name":"ravindra","doctor_name":"mayur jani","check_in_time":"11:24:19","collect_fees":250}', 'method': 'Doctor', 'cmd': 'run_doc_method'}
+2024-01-22 15:29:14,201 ERROR frappe New Exception collected with id: 2024-01-22 15:29:14.115261-127.0.0.1-586
+Site: hospital.com
+Form Dict: {'doc': '{"name":"mavi","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":0,"patient_name":"mavi","doctype":"Exam template","blood_report":[{"name":"1c373c53fe","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"blood_group":"o+","hemoglobin":201,"glucose":195,"potatiuam":199,"parent":"mavi","parentfield":"blood_report","parenttype":"Exam template","doctype":"Blood rep doc","__unsaved":1}],"examiner":[{"name":"a47ea6a6f6","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"examinar_name":"minal","parent":"mavi","parentfield":"examiner","parenttype":"Exam template","doctype":"Assign examinar","blood_report":[],"mri_report":[],"xray_report":[],"__unsaved":1}],"mri_report":[],"xray_report":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-22 15:33:21,219 ERROR frappe New Exception collected with id: 2024-01-22 15:33:21.123117-127.0.0.1-c6e
+Site: hospital.com
+Form Dict: {'doc': '{"name":"mavi","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":0,"patient_name":"mavi","doctype":"Exam template","blood_report":[{"name":"1c373c53fe","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"blood_group":"o+","hemoglobin":2000,"glucose":195,"potatiuam":199,"parent":"mavi","parentfield":"blood_report","parenttype":"Exam template","doctype":"Blood rep doc","__unsaved":1}],"examiner":[{"name":"a47ea6a6f6","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"examinar_name":"minal","parent":"mavi","parentfield":"examiner","parenttype":"Exam template","doctype":"Assign examinar","blood_report":[],"mri_report":[],"xray_report":[],"__unsaved":1}],"mri_report":[],"xray_report":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-22 15:36:51,827 ERROR frappe New Exception collected with id: 2024-01-22 15:36:51.768186-127.0.0.1-a94
+Site: hospital.com
+Form Dict: {'doc': '{"name":"mavi","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":0,"patient_name":"mavi","doctype":"Exam template","blood_report":[{"name":"1c373c53fe","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"blood_group":"o+","hemoglobin":225,"glucose":195,"potatiuam":199,"parent":"mavi","parentfield":"blood_report","parenttype":"Exam template","doctype":"Blood rep doc","__unsaved":1}],"examiner":[{"name":"a47ea6a6f6","owner":"Administrator","creation":"2024-01-22 15:21:53.531194","modified":"2024-01-22 15:27:05.463925","modified_by":"Administrator","docstatus":0,"idx":1,"examinar_name":"minal","parent":"mavi","parentfield":"examiner","parenttype":"Exam template","doctype":"Assign examinar","blood_report":[],"mri_report":[],"xray_report":[],"__unsaved":1}],"mri_report":[],"xray_report":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-22 16:43:03,394 ERROR frappe New Exception collected with id: 2024-01-22 16:43:03.324526-127.0.0.1-6a5
+Site: hospital.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Exam template","name":"new-exam-template-nometuhmni","__islocal":1,"__unsaved":1,"owner":"Administrator","select_report":"Xray rep doc","patient_name":"mavi"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-23 11:41:36,753 ERROR frappe New Exception collected with id: 2024-01-23 11:41:36.537711-127.0.0.1-281
+Site: hospital.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Exam template","name":"new-exam-template-dyjojscghe","__islocal":1,"__unsaved":1,"owner":"Administrator","select_report":"Blood report","patient_name":"manish","assign_examinar":"ravindra"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-23 11:47:29,469 ERROR frappe New Exception collected with id: 2024-01-23 11:47:29.457999-127.0.0.1-bfb
+Site: hospital.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Exam template","name":"new-exam-template-ugfdiehzed","__islocal":1,"__unsaved":1,"owner":"Administrator","select_report":"Blood report","patient_name":"mavi","assign_examinar":"mjygvh","blood_report":[]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-23 15:45:53,041 ERROR frappe New Exception collected with id: 2024-01-23 15:45:52.957483-127.0.0.1-f5c
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","assign_examinar":"jenil"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 15:47:45,652 ERROR frappe New Exception collected with id: 2024-01-23 15:47:45.650264-127.0.0.1-f15
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","assign_examinar":"jeel"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 15:49:51,873 ERROR frappe New Exception collected with id: 2024-01-23 15:49:51.750125-127.0.0.1-8b0
+Site: hospital.com
+Form Dict: {'doctype': 'Book an exam', 'with_parent': '1', 'cached_timestamp': '2024-01-22 17:46:49.467143', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-01-23 16:03:25,213 ERROR frappe New Exception collected with id: 2024-01-23 16:03:25.153479-127.0.0.1-fb4
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:05:15,346 ERROR frappe New Exception collected with id: 2024-01-23 16:05:15.243734-127.0.0.1-e90
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:05:55,689 ERROR frappe New Exception collected with id: 2024-01-23 16:05:55.579343-127.0.0.1-a92
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:07:25,843 ERROR frappe New Exception collected with id: 2024-01-23 16:07:25.781683-127.0.0.1-13c
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:07:38,877 ERROR frappe New Exception collected with id: 2024-01-23 16:07:38.874732-127.0.0.1-5d4
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:18:44,052 ERROR frappe New Exception collected with id: 2024-01-23 16:18:43.991388-127.0.0.1-567
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","select_report":"Xray report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:21:43,693 ERROR frappe New Exception collected with id: 2024-01-23 16:21:43.629978-127.0.0.1-9b1
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:23:44,939 ERROR frappe New Exception collected with id: 2024-01-23 16:23:44.934225-127.0.0.1-ec2
+Site: hospital.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Exam template","name":"new-exam-template-prwjpbbyrj","__islocal":1,"__unsaved":1,"owner":"Administrator","select_report":"","patient_name":"raman"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-23 16:27:31,043 ERROR frappe New Exception collected with id: 2024-01-23 16:27:30.965478-127.0.0.1-89f
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"ravindra","select_report":"Xray report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:33:05,915 ERROR frappe New Exception collected with id: 2024-01-23 16:33:05.836820-127.0.0.1-463
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","select_report":"Xray report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 16:34:48,249 ERROR frappe New Exception collected with id: 2024-01-23 16:34:48.244883-127.0.0.1-f31
+Site: hospital.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Exam template","name":"new-exam-template-ixikvmdaqe","__islocal":1,"__unsaved":1,"owner":"Administrator","select_report":"","patient_name":"mavi","assign_examinar":"javed"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-23 17:35:35,013 ERROR frappe New Exception collected with id: 2024-01-23 17:35:34.958275-127.0.0.1-c59
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","assign_examinar":"javed","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":644,"glucose":252,"potatiuam":542}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:38:27,658 ERROR frappe New Exception collected with id: 2024-01-23 17:38:27.603259-127.0.0.1-132
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"raman","assign_examinar":"hhk","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":254,"glucose":2121,"potatiuam":24}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:41:40,486 ERROR frappe New Exception collected with id: 2024-01-23 17:41:40.420630-127.0.0.1-3db
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"dfxg","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":215,"glucose":222,"potatiuam":222}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:43:11,787 ERROR frappe New Exception collected with id: 2024-01-23 17:43:11.732012-127.0.0.1-4f8
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"xdfg","select_report":"Blood report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:43:55,368 ERROR frappe New Exception collected with id: 2024-01-23 17:43:55.310998-127.0.0.1-981
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"janki"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:44:17,129 ERROR frappe New Exception collected with id: 2024-01-23 17:44:17.128270-127.0.0.1-5cc
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"zdfd"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:46:33,368 ERROR frappe New Exception collected with id: 2024-01-23 17:46:33.302148-127.0.0.1-ef3
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"sfcs","select_report":"Blood report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:52:41,297 ERROR frappe New Exception collected with id: 2024-01-23 17:52:41.228075-127.0.0.1-dc7
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"mavi","assign_examinar":"srssr"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:53:42,342 ERROR frappe New Exception collected with id: 2024-01-23 17:53:42.337701-127.0.0.1-16b
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"sfsa","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":3132,"glucose":412,"potatiuam":44}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 17:58:15,907 ERROR frappe New Exception collected with id: 2024-01-23 17:58:15.809369-127.0.0.1-d2a
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"janki","assign_examinar":"dfd","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":54,"glucose":24,"potatiuam":24}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 18:02:27,444 ERROR frappe New Exception collected with id: 2024-01-23 18:02:27.381689-127.0.0.1-76d
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"aef","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":265,"glucose":23,"potatiuam":254}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 18:06:42,398 ERROR frappe New Exception collected with id: 2024-01-23 18:06:42.355587-127.0.0.1-ff7
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"ravindra","assign_examinar":"efwef","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":3135,"glucose":21651,"potatiuam":25}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 18:09:49,460 ERROR frappe New Exception collected with id: 2024-01-23 18:09:49.413029-127.0.0.1-29a
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"manish","assign_examinar":"asd","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":21,"glucose":32,"potatiuam":256}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 18:10:51,691 ERROR frappe New Exception collected with id: 2024-01-23 18:10:51.641774-127.0.0.1-878
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"mavi","assign_examinar":"fhg","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":321,"glucose":123,"potatiuam":199}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-23 22:40:31,703 ERROR frappe New Exception collected with id: 2024-01-23 22:40:31.632013-127.0.0.1-a12
+Site: hospital.com
+Form Dict: {'values': '{"patient_name":"janki","assign_examinar":"fewf","select_report":"Blood report","blood_report":[{"idx":1,"__islocal":true,"name":"row 1","blood_Group":"o-","hemoglobin":225,"glucose":254,"potatiuam":154}]}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-24 16:04:47,619 ERROR frappe New Exception collected with id: 2024-01-24 16:04:47.550525-127.0.0.1-309
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:05:38,062 ERROR frappe New Exception collected with id: 2024-01-24 16:05:38.060801-127.0.0.1-8eb
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:05:38,614 ERROR frappe New Exception collected with id: 2024-01-24 16:05:38.613252-127.0.0.1-cc9
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:08:45,097 ERROR frappe New Exception collected with id: 2024-01-24 16:08:45.029021-127.0.0.1-dc9
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:08:45,668 ERROR frappe New Exception collected with id: 2024-01-24 16:08:45.665662-127.0.0.1-6bf
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:17:21,744 ERROR frappe New Exception collected with id: 2024-01-24 16:17:21.646564-127.0.0.1-a12
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:17:22,259 ERROR frappe New Exception collected with id: 2024-01-24 16:17:22.257996-127.0.0.1-691
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:20:24,035 ERROR frappe New Exception collected with id: 2024-01-24 16:20:24.033908-127.0.0.1-fbb
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 16:20:24,595 ERROR frappe New Exception collected with id: 2024-01-24 16:20:24.593350-127.0.0.1-836
+Site: hospital.com
+Form Dict: {'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-24 18:22:13,992 ERROR frappe New Exception collected with id: 2024-01-24 18:22:13.940911-127.0.0.1-aea
+Site: hospital.com
+Form Dict: {'values': '{"book_exam":"AP-manish-0010","patient_name":"manish","doctor":"mayur jani","assign_examinar":"jayesh","select_report":"Blood report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
+2024-01-25 09:49:08,149 ERROR frappe New Exception collected with id: 2024-01-25 09:49:08.062707-127.0.0.1-a17
+Site: hospital.com
+Form Dict: {'doctype': 'Exam template', 'fields': '["`tabExam template`.`name`","`tabExam template`.`owner`","`tabExam template`.`creation`","`tabExam template`.`modified`","`tabExam template`.`modified_by`","`tabExam template`.`_user_tags`","`tabExam template`.`_comments`","`tabExam template`.`_assign`","`tabExam template`.`_liked_by`","`tabExam template`.`docstatus`","`tabExam template`.`idx`"]', 'filters': '[]', 'order_by': '`tabExam template`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabExam template`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
+2024-01-25 09:54:45,961 ERROR frappe New Exception collected with id: 2024-01-25 09:54:45.955419-127.0.0.1-562
+Site: hospital.com
+Form Dict: {'doctype': 'Exam template', 'fields': '["`tabExam template`.`name`","`tabExam template`.`owner`","`tabExam template`.`creation`","`tabExam template`.`modified`","`tabExam template`.`modified_by`","`tabExam template`.`_user_tags`","`tabExam template`.`_comments`","`tabExam template`.`_assign`","`tabExam template`.`_liked_by`","`tabExam template`.`docstatus`","`tabExam template`.`idx`"]', 'filters': '[]', 'order_by': '`tabExam template`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabExam template`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
+2024-01-25 09:59:45,920 ERROR frappe New Exception collected with id: 2024-01-25 09:59:45.917356-127.0.0.1-8a1
+Site: hospital.com
+Form Dict: {'doctype': 'Exam template', 'fields': '["`tabExam template`.`name`","`tabExam template`.`owner`","`tabExam template`.`creation`","`tabExam template`.`modified`","`tabExam template`.`modified_by`","`tabExam template`.`_user_tags`","`tabExam template`.`_comments`","`tabExam template`.`_assign`","`tabExam template`.`_liked_by`","`tabExam template`.`docstatus`","`tabExam template`.`idx`"]', 'filters': '[]', 'order_by': '`tabExam template`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabExam template`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
+2024-01-25 10:05:16,166 ERROR frappe New Exception collected with id: 2024-01-25 10:05:16.163667-127.0.0.1-b78
+Site: hospital.com
+Form Dict: {'name': 'AP-mavi-0011', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-25 10:05:16,762 ERROR frappe New Exception collected with id: 2024-01-25 10:05:16.759555-127.0.0.1-7f9
+Site: hospital.com
+Form Dict: {'name': 'AP-mavi-0011', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-25 10:05:32,304 ERROR frappe New Exception collected with id: 2024-01-25 10:05:32.301785-127.0.0.1-76c
+Site: hospital.com
+Form Dict: {'name': 'AP-mavi-0011', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.name_patient'}
+2024-01-25 10:06:31,927 ERROR frappe New Exception collected with id: 2024-01-25 10:06:31.868292-127.0.0.1-0ff
+Site: hospital.com
+Form Dict: {'values': '{"book_exam":"AP-mavi-0011","patient_name":"mavi","doctor":"mayur jani","assign_examinar":"jevin","select_report":"Blood report"}', 'cmd': 'hospitel.hospitel_deteals.doctype.book_an_exam.book_an_exam.create_hospitel'}
